@@ -10,12 +10,17 @@ import Foundation
 class ViewModel: ObservableObject {
     
     // MARK: - Property Wrappers
-    @Published var text = ""
+    @Published var text: String = ""
+    @Published var searchedItems: [String] = []
     
     
     // MARK: - Properties
-    private let items = (0..<100).map { "\($0)" }
-    var searchedItems: [String] {
-        text.isEmpty ? items : items.filter { $0.contains(text) }
+    private let items = (0..<1000).map { "\($0)" }
+    
+    
+    // MARK: - Methods
+    func filter(by text: String) {
+        searchedItems = text.isEmpty ? items : items.filter { $0.contains(text) }
     }
+    
 }
