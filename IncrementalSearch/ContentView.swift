@@ -24,6 +24,7 @@ struct ContentView: View {
                 } // ForEach
             } // List
             .listStyle(PlainListStyle())
+            .animation(.easeIn)
         } // VStack
         .onReceive(viewModel.$text) { text in
             viewModel.filter(by: text)
