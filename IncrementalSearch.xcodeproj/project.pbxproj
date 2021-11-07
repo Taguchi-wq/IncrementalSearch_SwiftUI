@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7FB830232737B1140045D846 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FB830222737B1140045D846 /* ViewModel.swift */; };
 		7FDFDEBA2737AB7D006E6256 /* IncrementalSearchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDFDEB92737AB7D006E6256 /* IncrementalSearchApp.swift */; };
 		7FDFDEBC2737AB7D006E6256 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FDFDEBB2737AB7D006E6256 /* ContentView.swift */; };
 		7FDFDEBE2737AB80006E6256 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FDFDEBD2737AB80006E6256 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7FB830222737B1140045D846 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		7FDFDEB62737AB7D006E6256 /* IncrementalSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IncrementalSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7FDFDEB92737AB7D006E6256 /* IncrementalSearchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IncrementalSearchApp.swift; sourceTree = "<group>"; };
 		7FDFDEBB2737AB7D006E6256 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +55,7 @@
 			children = (
 				7FDFDEB92737AB7D006E6256 /* IncrementalSearchApp.swift */,
 				7FDFDEBB2737AB7D006E6256 /* ContentView.swift */,
+				7FB830222737B1140045D846 /* ViewModel.swift */,
 				7FDFDEBD2737AB80006E6256 /* Assets.xcassets */,
 				7FDFDEBF2737AB80006E6256 /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7FDFDEBC2737AB7D006E6256 /* ContentView.swift in Sources */,
+				7FB830232737B1140045D846 /* ViewModel.swift in Sources */,
 				7FDFDEBA2737AB7D006E6256 /* IncrementalSearchApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
